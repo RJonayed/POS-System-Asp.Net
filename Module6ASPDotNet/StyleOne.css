@@ -1,0 +1,2074 @@
+﻿
+*{ 
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 0;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    margin-top: 0;
+}
+
+
+@font-face {
+    font-family:Tahoma;
+    /*Tahoma*/
+    /*src: url('/Font/Tahoma.ttf');
+  src: local("Tahoma")*/, url("/Font/Tahoma.ttf") format("truetype"); /* non-IE */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.clsMsgSup
+{
+    font-family :Tahoma;
+    font-size:10pt;
+    /*background-color:#647B98 ;*/
+    color:red;
+    text-align:center;
+   
+     border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+           
+}
+
+.clsHtmlTotFont
+{
+font-family :'Tahoma';
+font-size:10pt;
+font-weight:bold;
+text-align:center;
+        
+}
+
+.clsAssmntStatus
+{
+font-family :'Tahoma';
+font-size:10.5pt;
+text-align:center;
+background-color:white;
+color:black;
+text-align: center;
+border-style:solid;
+border-width:1px;
+border-color:darkgray;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+
+.clsAssmnt
+{
+font-family :'Tahoma';
+font-size:10.5pt;
+color:black;
+padding:5px;
+text-align: left;
+border-style:solid;
+border-width:1px;
+border-color:darkgray;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.clsAssmStatus
+{
+font-family :'Tahoma';
+font-size:10.5pt;
+color:black;
+padding:5px;
+text-align: center;
+border-style:solid;
+border-width:1px;
+border-color:darkgray;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+.clsHtmlHeadFont
+{
+    font-family :'Tahoma';
+    font-size:10pt;
+    color:white;
+    background-color:transparent;
+  
+}
+
+.clsPenFont
+{
+    font-family :'Tahoma';
+    font-size:9pt;
+    color:red;
+    background-color:red;
+}
+
+.clsHtmlFont
+{
+    font-family :'Tahoma';
+    font-size:9pt;
+    background-color:transparent;
+  
+}
+
+
+.ClsGrdRowStyle
+{
+     font-family :'Tahoma';
+font-size:8pt;
+ font-weight: normal;
+}
+
+.ClsGrdAltRowStyle
+{
+     font-family :'Tahoma';
+font-size:8pt;
+ font-weight: normal;
+}
+
+
+.ClsGrdHeadingStyle
+{
+     font-family :'Tahoma';
+font-size:8pt;
+ font-weight: bold;
+ text-align:left;
+}
+.clsLoginHeader
+{
+    font-family :'Tahoma';
+font-size:10pt;
+    background-color:#647B98;
+  height:5px;
+    
+            
+}
+
+.clsPopupBox
+{
+    
+    background-color:white;
+    border:solid;
+  border-color:silver;
+  border-width:1px;   
+         
+}
+
+
+
+
+.clsOnlyFont
+{
+    font-family :'Tahoma';
+    font-size:8pt;
+    background-color:transparent;
+    
+   
+}
+
+.clsOnlyFontWithCursor
+{
+    font-family :'Tahoma';
+    font-size:8pt;
+    background-color:transparent;
+    cursor:pointer;
+   
+}
+
+.clsOnlyFontBold
+{
+    font-family :'Tahoma';  
+    font-size:8pt;
+    font-weight:bold;
+    background-color:transparent;
+    
+   
+}
+
+
+
+.clsHoverFontBig
+{
+    font-family :'Tahoma';  
+    font-size:8pt;
+    background-color:transparent;
+
+}
+.clsHoverFontBig:hover
+{
+    font-family :'Tahoma';  
+    font-size:8pt;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+
+.clsViewDet
+{
+    font-family :'Tahoma';  
+    font-size:20pt;
+    background-color:cornflowerblue;
+    border-color:darkcyan;
+    border-width:1px;
+    color:white;
+    width:90px;
+}
+.clsViewDet:hover
+{
+    font-family :'Tahoma';  
+    font-size:8pt;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.clsTableFont
+{
+    font-family :'Tahoma';
+font-size:8pt;
+text-align:left;
+padding:5px;
+
+            
+}
+
+.clsTableFontCenter
+{
+    font-family :'Tahoma';
+font-size:8pt;
+text-align:center;
+padding:5px;
+
+            
+}
+
+.clsTablePhoto
+{
+   width:40px;
+   height:50px;
+}
+
+.clsDojDiv{
+    
+    height:260px;
+    width:420px;
+      overflow:scroll;
+      overflow-x:hidden;
+}
+
+.clsTeamDiv{
+    
+    height:300px;
+    width:700px;
+      overflow:scroll;
+      overflow-x:hidden;
+}
+
+.clsHtmlDiv{
+      overflow:scroll;
+      overflow-x:hidden;
+}
+
+.clsTableHeaderFont
+{
+    font-family :'Tahoma';
+font-size:8pt;
+font-weight:bold;
+text-align:left;
+/*position:fixed;*/
+background-color:white;
+        
+}
+.clsTableHeaderFontCenter
+{
+    font-family :'Tahoma';
+font-size:8pt;
+font-weight:bold;
+text-align:center;
+        
+}
+
+.clsLoginFooter
+{
+    font-family :'Tahoma';
+font-size:10pt;
+    background-color:#647B98 ;
+  height:5px;
+     /*border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;*/
+            
+}
+
+
+.clsForColon
+{
+    font-family :'Tahoma';   
+    font-size:12pt;
+    font-weight:bold;
+    color:black;         
+}
+
+.clsProfileInfo
+{
+    font-family :'Tahoma';   
+    font-size:12pt;
+    font-weight:bold;
+    color:black;         
+}
+
+.clsbodyNew{
+      /*background-size: 100%;*/
+       background-repeat:no-repeat;
+       -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      overflow-y:hidden;
+      overflow-x:hidden;
+}
+.clsBody{
+     /*background: url(Images/bg.png) no-repeat center center fixed;*/
+     background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      overflow-y:hidden;
+      overflow-x:hidden;
+}
+.clsLogInDiv
+{
+    background-image: url(Images/bg.png);
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+
+
+.FixedHeader {
+            position: absolute;
+            font-weight: bold;
+        }   
+
+.clsFldHeading
+{
+    background-color: white;
+    color:darkgray;
+font-family :'Tahoma';
+font-size:10pt;
+font-style:normal;
+}
+
+.clsFormHeading {
+    background-color: darkgray;
+    color: white;
+    font-family: 'Tahoma';
+    font-size: 12pt;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.clsLogInPnl
+{
+    
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+.clsLogInPnl:hover{
+    background-color: silver;
+    font-weight:bold;
+}
+
+.clsOnlyRound
+{
+    
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-family : Tahoma;
+
+}
+
+.clsLogInTextBox
+{
+    outline: none;
+    background-color:transparent;
+    
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+transition: background-color 600s ease-in-out 0s;
+}
+
+.clsLogInBtn
+{
+     background-color:Transparent;
+     outline: none;
+}
+.clsLogInBtn:hover{
+    font-weight:bold;
+}
+.clsReportButton
+{
+    background-color: dimgray;
+    color:white;
+font-family : Tahoma;
+font-size:8pt;
+font-style:normal;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+.clsReportButton:hover{
+    background-color: cornflowerblue;
+}
+
+.clsBlank
+{
+width:1200px;
+height:20px;
+background-color: white;
+overflow:hidden
+}
+
+
+
+
+.clsImageBtn
+{
+width:80px;
+height:25px;
+}
+
+
+.clsLabel
+{
+width:80px;
+height:25px;
+}
+
+.clsHeader
+{
+width:1200px;
+height:50px;
+background-color: white;
+overflow:hidden
+}
+
+.clsClndrPnl
+{
+background-color: white;
+color:black;
+border-color:gray;
+overflow:hidden;
+border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+.clsClndrPnlBtn
+{
+width:80px;
+height:16px;
+background-color: white;
+font-family :'Tahoma';
+overflow:hidden;
+    border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            cursor:pointer;
+}
+
+.clsClndrPnlLebDayName
+{
+width:80px;
+height:16px;
+font-family :'Tahoma';
+font-size:8pt;
+    background-color: darkgray;
+    color:white;
+    border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+overflow:hidden
+
+}
+
+.clsMenu
+{
+width:1200px;
+height:20px;
+background-color: white;
+font-family :'Tahoma';
+font-size:10pt;
+margin:auto;
+overflow:hidden
+}
+
+.clsContent
+{
+/*width:1000px;*/
+height:2700px;
+background-color: white;
+border-color:darkgray;
+border-width:1px;
+border-style:solid;
+border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+overflow:hidden
+
+}
+
+.clsMenuLeft
+{
+width:200px;
+/*height:700px;*/
+background-color: white;
+border-color:darkgray;
+border-width:1px;
+border-style:solid;
+border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+overflow:hidden
+
+}
+
+.clsPageHeding
+{
+    width:1000px;
+height:100px;
+background-color:darkgray;
+text-align:center;
+font-family:Tahoma;
+font-size:large;
+color:#0066CC;
+overflow:hidden
+}
+
+.clsPageHeaderColor
+{
+    background-color:white;
+}
+
+.hideLabel
+{
+    background-color:white;
+    color:white;
+}
+
+.pnlBackColorLeft
+{
+    background-color:white;
+}
+
+.pnlBackColorRight
+{
+    background-color:white;
+}
+
+.pnlBackColorCommon
+{
+    background-color:white;
+    border-style:solid;
+    border-color:silver;
+    border-width:1px;
+         border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+}
+
+.pnlBackColorCommonLeftMenu
+{
+    background-color:ghostwhite;
+    height:700px;
+    /*background-color:white;*/
+    border-style:solid;
+    border-color:silver;
+    border-width:1px;
+         border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+}
+
+.clsFormBGColor
+{
+    background-color:white;
+}
+.clsFooter
+{
+width:1200px;
+height:15px;
+background-color: white;
+font-family :'Tahoma';
+font-size:8pt;
+margin:auto;
+border-color:darkgray;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+overflow:hidden
+}
+
+.clsButon {
+    height: 24px;
+    border-style: solid;
+    border-width: thin;
+    font-family: 'Tahoma';
+    font-size: 8pt;
+    color: black;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.clsButon:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+
+
+
+
+.HeadclsLabel
+{
+            
+background-color:#647B98;
+}
+
+.FootclsLabel
+{
+            
+background-color:#647B98;
+}
+
+
+
+
+.MenuclsButon
+{
+    width:100px;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    text-align:left;
+    background-color: white;
+}
+.MenuclsButon:hover
+{
+    color:red;
+    font-family :'Tahoma';
+    font-size:10pt;
+
+}.clsHomeDiv
+{
+width:1000px;
+height:400px;
+background-color:#F4FFEA;
+overflow:hidden
+}
+
+
+.clsTenderDiv
+{
+width:1200px;
+height:1200px;
+background-color:#F4FFEA;
+overflow:hidden
+}
+
+
+
+.clsTextBoxCenterAlign
+{
+width:100px;
+height:24px;
+background-color:ghostwhite;
+font-family:"Tahoma";
+font-size:10pt;
+border-width:1px;
+border-style:solid;
+border-color:silver;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            resize:none;
+            text-align:center;
+overflow:hidden
+        
+}
+
+.clsTextBox
+{
+width:100px;
+height:24px;
+background-color:ghostwhite;
+font-family:"Tahoma";
+font-size:10pt;
+border-width:1px;
+border-style:solid;
+border-color:silver;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            resize:none;
+            
+overflow:hidden
+}
+
+
+.clsTextBoxScroll
+{
+width:100px;
+height:18px;
+background-color:white;
+font-family:"Tahoma";
+font-size:12px;
+border-color:silver;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            resize:none;
+            
+overflow:scroll;
+}
+
+
+.clsHomeDiv
+{
+width:1200px;
+height:400px;
+background-color:#F4FFEA;
+overflow:hidden
+}
+
+
+.clsTenderDiv
+{
+width:1200px;
+height:1100px;
+background-color:#F4FFEA;
+overflow:hidden
+}
+
+/**
+.clsComboBox
+        {
+    height:20px;
+       color:rgb(33,33,00);
+Font-Family:Book Antiqua;
+font-size:12px;
+vertical-align :middle;
+margin:0;
+    padding:0;
+    border-width:1px;
+    border-color:chocolate;
+    
+
+        }
+
+    */
+
+.Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
+
+.Grid td {
+
+      padding: 2px;
+
+      border: solid 1px #c1c1c1; }
+
+.Grid th  {
+
+      padding : 4px 2px;
+
+      color: #fff;
+
+      background: #363670 url(Images/grid-header.png) repeat-x top;
+
+      border-left: solid 1px #525252;
+
+      font-size: 0.9em; }
+
+.Grid .alt {
+
+      background: #fcfcfc url(Images/grid-alt.png) repeat-x top; }
+
+.Grid .pgr {background: #363670 url(Images/grid-pgr.png) repeat-x top; }
+
+.Grid .pgr table { margin: 3px 0; }
+
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+
+.Grid .pgr a { color: Gray; text-decoration: none; }
+
+.Grid .pgr a:hover { color: #000; text-decoration: none; 
+
+}
+
+/**
+.clsTextBox
+{
+    width:200px;
+    height:18px;
+    background-color:white;
+
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+}
+
+**/
+
+.clsClndr
+{
+	background-color:Blue;
+	color:Navy;
+}
+.ajax__calendar_body
+{
+	background-color:Navy;
+	font-family:Tahoma;
+	color:White;
+}
+.ajax__calendar_header
+{
+	background-color:#E6E6FF;
+}
+.ajax__calendar_footer
+{
+	background-color:#E6E6FF;
+}
+
+
+
+.mydatagrid
+{
+    width: 100%;
+    /** border: solid 2px White;main border  none 0px transparent**/
+    min-width: 100%;
+}
+.header
+{
+    background-color:darkgray ;
+    font-family: 'Tahoma';
+    color: white;
+    border: none 0px transparent;
+    height: 20px;
+    font-weight:normal;
+    text-align: left;
+    font-size: 8pt;
+    font-weight:100;
+    width:100%;
+    
+}
+
+.rows
+{
+    background-color: white;
+    font-family: Tahoma;
+    font-size: 8pt;
+    color: black;
+    min-height: 20px;
+    text-align: left;
+    border: unset 1px White;
+}
+.rows:hover
+{
+    background-color: #009ae1;
+    font-family: Tahoma;
+    color: #fff;
+    text-align: left;
+}
+.selectedrow
+{
+    background-color: Blue;
+    font-family: Tahoma;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.altRows {
+    background-color: whitesmoke;
+    font-family: Tahoma;
+    font-size: 8pt;
+    color: black;
+    min-height: 20px;
+    text-align: left;
+    border: unset 1px White;
+}
+
+.altRows:hover
+{
+    background-color: #009ae1;
+    
+    color: #fff;
+    
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #dddddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES select button**/
+{
+    background-color: #009ae1;
+    color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+.pager
+{
+    background-color: #646464;
+    font-family: Tahoma;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+
+.mydatagrid td
+{
+    border:none;
+    padding: 3px;
+}
+.mydatagrid th
+{
+    padding: 3px;
+}
+
+
+/* ComboBox styles */
+#master_content .ajax__combobox_itemlist
+{
+    margin: 0px;
+    
+}
+
+.clsComboBox .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input
+{
+    /**
+    background-image: url(Images/comboBack.png);
+    background-position: top left;
+    **/
+    font-family:Tahoma;
+    color:black;
+    padding: 4px 0px 3px 5px;
+    border-style:solid;
+    font-size: 10pt;
+    height: 20px;
+    /*width: 240px;*/
+    border-color: silver;
+    border-width:1px;
+    background-color:aliceblue;
+      border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+    
+}
+.clsComboBox .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button
+{
+    font-family:Tahoma;
+    background-image: url(Images/downArrow.png);
+    background-position: top left;
+ background-color:white; /*arrow key back color*/  
+    border: 0px none;
+    height: 20px;
+    width: 20px;
+}
+.clsComboBox .ajax__combobox_itemlist
+{
+    font-family:Tahoma;
+     font-size: 11pt; 
+    border-color: silver;
+    background-color: #EFEFEF;
+}
+
+
+
+
+
+
+
+
+
+
+/** @import url(http://fonts.googleapis.com/css?family=Open+Sans);**/
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: auto;
+  font-family: Tahoma;
+  line-height: 1;
+  background: #ffffff;
+}
+#menu-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #009ae1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  padding: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #009ae1;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 25px;
+}
+#cssmenu > ul > li.has-sub > a::after {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a::after {
+  border-color: #009ae1;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  right: 0;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  -ms-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s ease;
+}
+#cssmenu ul li:hover > ul > li {
+  height: 32px;
+}
+#cssmenu ul ul li a {
+  padding: 10px 20px;
+  width: 160px;
+  font-size: 12px;
+  background: #333333;
+  text-decoration: none;
+  color: #dddddd;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul ul li.has-sub > a::after {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a::after {
+  right: auto;
+  left: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+#cssmenu ul ul li.has-sub:hover > a::after {
+  border-color: #ffffff;
+}
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: 100%;
+  }
+  #cssmenu ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu.align-center > ul,
+  #cssmenu.align-right ul ul {
+    text-align: left;
+  }
+  #cssmenu ul li,
+  #cssmenu ul ul li,
+  #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15);
+  }
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+  }
+  #cssmenu > ul > li,
+  #cssmenu.align-center > ul > li,
+  #cssmenu.align-right > ul > li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul ul li a {
+    padding: 20px 20px 20px 30px;
+    font-size: 12px;
+    color: #000000;
+    background: none;
+  }
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li a:hover {
+    color: #000000;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 40px;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+  }
+  #cssmenu > ul > li.has-sub > a::after,
+  #cssmenu ul ul li.has-sub > a::after {
+    display: none;
+  }
+  #menu-line {
+    display: none;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  #cssmenu #menu-button::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: #000000;
+  }
+  #cssmenu #menu-button::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.15);
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+  }
+  #cssmenu .submenu-button::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 26px;
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #000000;
+    z-index: 99;
+  }
+  #cssmenu .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #000000;
+    z-index: 99;
+  }
+  #cssmenu .submenu-button.submenu-opened:after {
+    display: none;
+  }
+}
+
+
+
+/** @import url(http://fonts.googleapis.com/css?family=Open+Sans);**/
+
+#frontcssmenu,
+#frontcssmenu ul,
+#frontcssmenu ul li,
+#frontcssmenu ul li a,
+#frontcssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+  /*border-right: 1px solid #000000;*/
+
+}
+#frontcssmenu:after,
+#frontcssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+
+#frontcssmenu #menu-button {
+  display: none;
+}
+#frontcssmenu {
+  width: auto;
+  font-family: Tahoma;
+  font-weight:bold;
+  line-height: 1;
+  background: #ffffff;
+    top: 0px;
+    left: -2px;
+}
+#menu-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #009ae1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+#frontcssmenu > ul > li {
+  float: left;
+  
+}
+#frontcssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#frontcssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#frontcssmenu.align-center ul ul {
+  text-align: left;
+}
+#frontcssmenu.align-right > ul > li {
+  float: right;
+}
+#frontcssmenu.align-right ul ul {
+  text-align: right;
+}
+#frontcssmenu > ul > li > a {
+  padding: 20px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #647B98;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+    top: 0px;
+    left: 2px;
+}
+
+
+#frontcssmenu > ul > li:hover > a,
+#frontcssmenu > ul > li.active > a {
+   color: white;
+   background-color:#647B98;
+
+            /*border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;*/
+}
+
+
+
+#frontcssmenu > ul > li.has-sub > a {
+  padding-right: 25px;
+  color: #647B98;
+}
+#frontcssmenu > ul > li.has-sub > a::after {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#frontcssmenu > ul > li.has-sub:hover > a::after {
+  border-color: #009ae1;
+}
+#frontcssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#frontcssmenu li:hover > ul {
+  left: auto;
+}
+#frontcssmenu.align-right li:hover > ul {
+  right: 0;
+}
+#frontcssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#frontcssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#frontcssmenu ul ul li {
+  height: 0;
+  -webkit-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  -ms-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s ease;
+}
+#frontcssmenu ul li:hover > ul > li {
+  height: 32px;
+}
+#frontcssmenu ul ul li a {
+  padding: 10px 20px;
+  width: 160px;
+  font-size: 12px;
+  background: #333333;
+  text-decoration: none;
+  color: #647B98;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+#frontcssmenu ul ul li:hover > a,
+#frontcssmenu ul ul li a:hover {
+  color: #ffffff;
+}
+#frontcssmenu ul ul li.has-sub > a::after {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#frontcssmenu.align-right ul ul li.has-sub > a::after {
+  right: auto;
+  left: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+#frontcssmenu ul ul li.has-sub:hover > a::after {
+  border-color: #ffffff;
+}
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    #frontcssmenu {
+        width: 100%;
+    }
+
+        #frontcssmenu ul {
+            width: 100%;
+            display: none;
+        }
+
+        #frontcssmenu.align-center > ul,
+        #frontcssmenu.align-right ul ul {
+            text-align: left;
+        }
+
+        #frontcssmenu ul li,
+        #frontcssmenu ul ul li,
+        #frontcssmenu ul li:hover > ul > li {
+            width: 100%;
+            height: auto;
+            border-top: 1px solid rgba(120, 120, 120, 0.15);
+        }
+
+            #frontcssmenu ul li a,
+            #frontcssmenu ul ul li a {
+                width: 100%;
+            }
+
+        #frontcssmenu > ul > li,
+        #frontcssmenu.align-center > ul > li,
+        #frontcssmenu.align-right > ul > li {
+            float: none;
+            display: block;
+        }
+
+        #frontcssmenu ul ul li a {
+            padding: 20px 20px 20px 30px;
+            font-size: 12px;
+            color: #000000;
+            background: none;
+        }
+
+            #frontcssmenu ul ul li:hover > a,
+            #frontcssmenu ul ul li a:hover {
+                color: #000000;
+            }
+
+        #frontcssmenu ul ul ul li a {
+            padding-left: 40px;
+        }
+
+        #frontcssmenu ul ul,
+        #frontcssmenu ul ul ul {
+            position: relative;
+            left: 0;
+            right: auto;
+            width: 100%;
+            margin: 0;
+        }
+
+            #frontcssmenu > ul > li.has-sub > a::after,
+            #frontcssmenu ul ul li.has-sub > a::after {
+                display: none;
+            }
+
+    #menu-line {
+        display: none;
+    }
+
+    #frontcssmenu #menu-button {
+        display: block;
+        padding: 20px;
+        color: #000000;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+        #frontcssmenu #menu-button::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: block;
+            width: 15px;
+            height: 2px;
+            background: #000000;
+        }
+
+        #frontcssmenu #menu-button::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            display: block;
+            width: 15px;
+            height: 3px;
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+        }
+
+    #frontcssmenu .submenu-button {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        top: 0;
+        display: block;
+        border-left: 1px solid rgba(120, 120, 120, 0.15);
+        height: 52px;
+        width: 52px;
+        cursor: pointer;
+    }
+
+        #frontcssmenu .submenu-button::after {
+            content: '';
+            position: absolute;
+            top: 21px;
+            left: 26px;
+            display: block;
+            width: 1px;
+            height: 11px;
+            background: #000000;
+            z-index: 99;
+        }
+
+        #frontcssmenu .submenu-button::before {
+            content: '';
+            position: absolute;
+            left: 21px;
+            top: 26px;
+            display: block;
+            width: 11px;
+            height: 1px;
+            background: #000000;
+            z-index: 99;
+        }
+
+        #frontcssmenu .submenu-button.submenu-opened:after {
+            display: none;
+        }
+
+}
+
+
+
+.clsATag
+{
+    
+    /*width:100px;*/
+    font-family :'Tahoma';
+    font-size:7pt;
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+.clsATag:hover{
+    text-decoration:underline;
+    color:dodgerblue;
+    font-weight:bold;
+}
+
+
+
+
+
+
+.clsButonHr
+{
+    padding: 8px 5px;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color:lightgrey;
+}
+.clsButonHr:hover
+{
+    color: white;
+    background-color:cornflowerblue ;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+.ajax__htmleditor_editor_bottomtoolbar {
+    display:none;
+    
+}
+
+
+.clsMsgLabel
+{
+    font-family :'Tahoma';
+font-size:10pt;
+    background-color:#647B98 ;
+  color:white;
+     border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            text-align:center;
+            
+}
+
+/*==========*/
+
+.clsMsgLabel
+{
+    font-family :'Tahoma';
+font-size:10pt;
+    background-color:#647B98 ;
+  color:white;
+     border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            text-align:center;
+            
+}
+
+
+.clsPageHeding
+{
+    width:200px;
+height:20px;
+background-color:gray;
+font-family :'Tahoma';
+font-size:12pt;
+color:#ffffff;
+ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+overflow:hidden
+}
+
+.clsPageHeaderColor
+{
+    background-color:white;
+}
+
+
+
+.clsButonTab
+{
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonTab:hover
+{
+    color:white;
+    background-color: royalblue;
+    cursor:pointer;
+
+}
+
+
+.clsButonSave {
+    height: 26px;
+    border-style: solid;
+    border-width: thin;
+    border-color: forestgreen;
+    font-family: 'Tahoma';
+    font-size: 10pt;
+    font-weight: bold;
+    color: forestgreen;
+    /*background-color: #95FF95;*/
+    background-color: #C4FFC4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.clsButonSave:hover
+{
+    color:white;
+    background-color: green ;
+    cursor:pointer;
+
+}
+
+
+.clsButonDelete
+{
+    height:26px;
+    border-style:solid;
+    border-width:thin;
+    border-color:rosydarkgray;
+    font-family :'Tahoma';
+    font-size:10pt;
+    font-weight:bold;
+    color:red;
+    background-color: mistyrose;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonDelete:hover
+{
+    color:white;
+    background-color: red ;
+    cursor:pointer;
+
+}
+
+.clsButonRefresh
+{
+    height:26px;
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:10pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonRefresh:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+
+.clsButonAddNew
+{
+    height:26px;
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:10pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonAddNew:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+
+.clsButonShow
+{
+    height:26px;
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:10pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonShow:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+.clsButonRpt
+{
+    height:26px;
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:10pt;
+    color:black;
+    background-color: whitesmoke;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+.clsButonRpt:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+.clsButonDBack
+{
+    border-style:solid;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    background-color: white;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.clsButonDBack:hover
+{
+    color:white;
+    background-color: lightseagreen ;
+    cursor:pointer;
+
+}
+
+
+.clsButonMenuMain
+{
+    text-align:left;
+    border-style:none;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+.clsButonMenuMain:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+
+.clsButonMenuDetails
+{
+    text-align:left;
+    border-style:none;
+    border-width:thin;
+    border-color:grey;
+    font-family :'Tahoma';
+    font-size:8pt;
+    color:black;
+    background-color: white;
+    
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+.clsButonMenuDetails:hover
+{
+    color:white;
+    background-color: gray ;
+    cursor:pointer;
+
+}
+
+
